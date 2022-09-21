@@ -1,0 +1,33 @@
+insert into usuarios (id, name, password, email, role) values (1, 'Marthe', '$2a$10$GX.MKiwJm.fUiyRLy9TdV.XCqzZoQAxVb/LLthTMcROQurJ9zs8Qu', 'mbeen0@netvibes.com','ROLE_ADMIN');
+insert into usuarios (id, name, password, email, role) values (2, 'Nessa', '$2a$10$GX.MKiwJm.fUiyRLy9TdV.XCqzZoQAxVb/LLthTMcROQurJ9zs8Qu', 'npetrashov1@google.co.uk', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (3, 'Winfred', 'S6xqLdsqj', 'wbunford2@google.de', 'ROLE_ADMIN');
+insert into usuarios (id, name, password, email, role) values (4, 'Parry', 'Gs9HqUXLf', 'pantoszczyk3@smugmug.com', 'ROLE_ADMIN');
+insert into usuarios (id, name, password, email, role) values (5, 'Sadella', 'QSW5H7dC', 'sbutterworth4@shareasale.com', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (6, 'Cherilyn', '0SIeULSpj2I', 'cwaterstone5@twitter.com', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (7, 'Martina', 'gyIC4VcfIdDA', 'mmatthai6@house.gov', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (8, 'Maude', 'R3GnZw7XKMeb', 'mvesque7@behance.net','ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (9, 'Sydney', 'e7T15B', 'slillo8@discovery.com', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (10, 'Rosanna', 'ZULBVYUb', 'rboas9@linkedin.com', 'ROLE_EDITOR');
+insert into usuarios (id, name, password, email, role) values (11, 'Zane', 'd4MzuSQYzqof', 'zhaensela@census.gov', 'ROLE_EDITOR');
+
+insert into categorias (category_id, name) values (1, 'Deporte');
+insert into categorias (category_id, name) values (2, 'Hogar');
+insert into categorias (category_id, name) values (3, 'Oficina');
+insert into categorias (category_id, name) values (4, 'Electronica');
+insert into categorias (category_id, name) values (5, 'Informatica');
+insert into categorias (category_id, name) values (6, 'Jardin');
+
+insert into productos (product_id, name, price, in_stock, image, category_id) values (1, 'Balon', 18, 55, "https://st.depositphotos.com/1177973/1374/i/600/depositphotos_13743914-stock-photo-football-ball-isolated-on-white.jpg" , 1);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (2, 'Raqueta', 24, 36, "https://media.dondinojuguetes.es/product/raqueta-tenis-junior-cfunda-800x800.jpg", 1);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (3, 'Mueble', 176, 21, "https://www.ahorrototal.com/3008883-large_default/mueble-de-salon-de-220-cm-color-sade-blanco.jpg", 2);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (4, 'Grapadora', 5, 30, "https://cdndisofic.es/multimedia/imagenes_med/F240174.jpg", 3);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (5, 'Enchufe', 3, 25, "https://assets.leroymerlin.es/is/image/lmes/82277545-0100-1/enchufe-schuko-lika.png?$lmesBgMobile$", 4);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (6, 'Ordenador', 450, 50, "https://economipedia.com/wp-content/uploads/ordenador.jpg", 5);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (7, 'Impresora', 260, 30, "https://img.freepik.com/vector-gratis/impresora-inyeccion-tinta-realista-isoalted-sobre-fondo-blanco_208593-71.jpg?w=2000", 5);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (8, 'Manguera', 24, 60, "https://www.tiendasmgi.es/47464-large_default/manguera-15-metros-con-goma.jpg", 6);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (9, 'Nevera', 230, 20, "https://static.carrefour.es/hd_510x_/imagenes/products/80034/37902/741/8003437902741/imagenGrande1.jpg", 2);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (10, 'Bombilla', 230, 20, "https://www.igan-iluminacion.com/258-zoom_producto/bombilla-led-10w-e27-230v-standard-maslighting.jpg", 4);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (11, 'Monitor', 230, 20, "https://i01.appmifile.com/webfile/globalimg/spainOria/desktop-monitor-27.png", 5);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (12, 'Balancín', 230, 20, "http://jolasplay.com/images/jolas-balancin-je-100-a.jpg", 6);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (13, 'Mesa', 230, 20, "https://www.stylohome.com/30868/mesa-redonda-extensible-raill-con-tapa-de-madera.jpg", 2);
+insert into productos (product_id, name, price, in_stock, image, category_id) values (14, 'Estuche', 230, 20, "https://www.susmaletas.com/images/articulos/original/ver_estuche_eastpak_benchmark_single_sunday_grey_2773-5.jpg", 3);
